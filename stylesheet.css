@@ -1,0 +1,53 @@
+* {
+    font-family: Arial;
+    text-align: center;
+    }
+
+div:nth-child(1) {
+    background-color: #C2FFA3;
+    border-style: solid;
+    border-color: #D68533;
+    width: 100%;
+    height: 100%;
+    }
+
+h1 {
+    color: #D68533;
+    }
+h3 {
+    color: #E2AA70;
+    }
+
+img {
+    height: 25em;
+    width: 25em;
+    }
+
+table {
+    width: 100%;
+    }
+
+tr th {
+    text-align: left;
+    color: #D68533;
+    background-color: #C2FFA3;
+    border: solid;
+    padding: 1em;
+    }
+
+tr td {
+    text-align: left;
+    padding: 1em;
+    color: #D68533;
+    font-weight: bold;
+    border: solid;
+    border-color: white;
+    }
+
+/*       <div>
+            <img src="https://s-media-cache-ak0.pinimg.com/236x/8d/ec/8a/8dec8aeb0d2ebc4ec7b4b53b6519d88b.jpg" />
+            <img src="http://www.inkart.net/stock/plants/cactus_succulents/images/prickly_pear.gif" />
+        </div>
+
+#C2FFA3
+*/
