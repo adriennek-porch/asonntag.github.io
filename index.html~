@@ -8,7 +8,7 @@
     <body>
         <div>
             <h1> Audrey's Virtual Cactus Farm </h1>
-            <h5> It's a tacky adventure to the Southwest! <h5>
+            <h3> It's a tacky adventure to the Southwest! <h5>
         </div>
         <div>
             <img src="http://24.media.tumblr.com/91e734cc65d53462c25acd28aace9f8d/tumblr_mpbnl2AsLA1qja240o1_1280.png" />
@@ -16,7 +16,7 @@
         <table>
             <thead>
                 <tr>
-                    <th>
+                    <th colspan="2">
                         Cactus
                     </th>
                     <th>
@@ -30,7 +30,27 @@
                         Optuntia
                     </td>
                     <td>
-                        You can eat it!
+                        <img src="http://www.inkart.net/stock/plants/cactus_succulents/images/prickly_pear.gif" />
+                    </td>
+                    <td>
+                        <ul>
+                            <li> You can eat it! </li>
+                            <li> Other info. </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Barrel Cactus
+                    </td>
+                    <td>
+                        <img src="https://s-media-cache-ak0.pinimg.com/originals/93/3f/e4/933fe4de49dc6601b15a97242f3b1fea.jpg" />
+                    </td>
+                    <td>
+                        <ul>
+                            <li> You can eat it! </li>
+                            <li> Other info. </li>
+                        </ul>
                     </td>
                 </tr>
             <tbody>
