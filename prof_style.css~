@@ -1,0 +1,11 @@
+* {
+    font-family: Arial;
+    }
+
+img {
+    height: 25em;
+    width: 25em;
+    display: block;
+    margin-left: 500em;
+    margin-right: 10em;
+    }
