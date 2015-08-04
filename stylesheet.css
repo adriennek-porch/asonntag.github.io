@@ -1,0 +1,19 @@
+* {
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+    }
+
+#header {
+        height: 30em;
+        width: 100%;
+        background-color: #547980;
+        position: fixed;
+        margin: 0 auto;
+        }
+
+#header img {
+            margin: auto;
+            position: absolute;
+}
+

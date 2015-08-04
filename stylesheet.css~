@@ -1,0 +1,8 @@
+* {
+    font-family: Arial;
+    }
+
+#header {
+        font-size: 800em;
+        }
+
