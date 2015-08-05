@@ -1,19 +1,50 @@
 * {
     font-family: Arial;
+    background-color: #EBEBFF; 
     padding: 0;
     margin: 0;
     }
 
-#header {
-        height: 30em;
+.header {
+        height: 25em;
         width: 100%;
-        background-color: #547980;
-        position: fixed;
+        background-color: #36483E;
         margin: 0 auto;
+        /*header won't move*/
+        position: fixed;
+        bottom-border: .3em dashed #EBEBFF
         }
 
-#header img {
-            margin: auto;
+.header img {
+            /*positioned relative to its nearest ancestor (header div)*/    
             position: absolute;
+            border: .3em solid #EBEBFF;
+            border-radius: 50%;
+            width: 20em;
+            height: 20em;
+            /*top and left refer to the edges of the image*/
+            top: 50%;
+            left: 50%;
+            /*half of the width and height to center */
+            margin-top: -10em;
+            margin-left: -10em;
+            display: inline-block;
 }
 
+.title {
+            position: absolute;
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%;
+            top: 50%;
+}
+
+#left {
+        display: inline;
+        float: left;
+}
+
+#right {
+        display: inline;
+        float: right;
+}
