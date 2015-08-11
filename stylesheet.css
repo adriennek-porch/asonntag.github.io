@@ -33,18 +33,33 @@
 
 .title {
             position: absolute;
-            display: inline-block;
+            display: table;
             vertical-align: middle;
             width: 100%;
             top: 50%;
+            /*table cells won't overlap*/
+            table-layout: fixed;
 }
 
 #left {
         display: inline;
         float: left;
+        padding-left: .25em;
 }
 
 #right {
         display: inline;
         float: right;
+        padding-right: .25em;
+        
 }
+
+.container {
+            height: 100em;
+            background-color: #E6E6B8;
+            width: 55em;
+            float: middle;
+            margin-left: auto;
+            margin-right: auto;
+}
+
