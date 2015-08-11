@@ -1,5 +1,6 @@
 * {
     font-family: Arial;
+<<<<<<< HEAD
     background-color: #EBEBFF; 
     padding: 0;
     margin: 0;
@@ -63,3 +64,14 @@
             margin-right: auto;
 }
 
+=======
+    }
+
+img {
+    height: 25em;
+    width: 25em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+>>>>>>> b35834db8573f6c8bac47f6d289be7ed964c42fc
