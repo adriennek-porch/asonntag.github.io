@@ -1,18 +1,17 @@
 * {
     font-family: Arial;
-    background-color: #EBEBFF; 
     padding: 0;
     margin: 0;
     }
 
 .header {
+        z-index: 1;
         height: 25em;
         width: 100%;
-        background-color: #36483E;
+        background-color: #82BBA0;
         margin: 0 auto;
         /*header won't move*/
         position: fixed;
-        bottom-border: .3em dashed #EBEBFF
         }
 
 .header img {
@@ -29,7 +28,7 @@
             margin-top: -10em;
             margin-left: -10em;
             display: inline-block;
-}
+            }
 
 .title {
             position: absolute;
@@ -37,8 +36,11 @@
             vertical-align: middle;
             width: 100%;
             top: 50%;
+            background-color: #EBEBFF;
             /*table cells won't overlap*/
             table-layout: fixed;
+            text-overflow: ellipsis;
+
 }
 
 #left {
@@ -56,9 +58,29 @@
 
 .container {
             height: 100em;
-            background-color: #E6E6B8;
+            background-color: #EBEBFF;
             width: 55em;
             float: middle;
             margin-left: auto;
             margin-right: auto;
+            padding-top: 25em;
+            position: relative;
+            overflow: hidden;
 }
+
+h2 {
+    text-align: center;
+    padding: 2em;
+}
+
+p {
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-bottom: 2em;
+}
+
+#about {
+            height: 25em;
+            border-bottom: .25em solid #82BBA0;
+}
+
