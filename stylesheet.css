@@ -17,7 +17,7 @@
 .header img {
             /*positioned relative to its nearest ancestor (header div)*/    
             position: absolute;
-            border: .3em solid #EBEBFF;
+            border: .3em solid white;
             /*make image a circle/oval*/
             border-radius: 50%;
             width: 12em;
@@ -35,9 +35,9 @@
             position: absolute;
             display: table;
             vertical-align: middle;
+            background-color: white;
             width: 100%;
             top: 50%;
-            background-color: #EBEBFF;
             margin-top: -1.5em;
             /*table cells won't overlap*/
             table-layout: fixed;
@@ -60,7 +60,6 @@
 
 .container {
             height: 100em;
-            background-color: #EBEBFF;
             width: 55em;
             float: middle;
             /*center horizontally*/
@@ -71,23 +70,26 @@
             overflow: hidden;
 }
 
-.container h2 {
+.content h2 {
     text-align: center;
     padding: 2em;
 }
 
-p {
-    padding-right: 5em;
-    padding-left: 5em;
+.content p {
     padding-bottom: 2em;
 }
 
-#about {
+.content {
+    padding-right: 5em;
+    padding-left: 5em;
+}
+
+.content {
             height: 25em;
             border-bottom: .25em solid #82BBA0;
 }
 
-#goodreads {
+.button {
             width: 8em;
             height: 2em;
             background-color: #82BBA0;
@@ -95,10 +97,10 @@ p {
             margin-left: auto;
             margin-right: auto;
             margin-top: 2em;
-            border-radius: 1em;
+            border-radius: .5em;
 }
 
-#goodreads a {
+.button a {
                 display: block;
                 height: 100%;
                 width: 100%;

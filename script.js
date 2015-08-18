@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    $goodreads = $('#goodreads')
-    $goodreads.mouseenter(function() {
-        $goodreads.fadeTo('fast', .75);
+    $button = $('.button')
+    $button.mouseenter(function() {
+        $button.fadeTo('fast', .75);
         });
-    $goodreads.mouseleave(function() {
-        $goodreads.fadeTo('fast', 1);
+    $button.mouseleave(function() {
+        $button.fadeTo('fast', 1);
         });
 });
