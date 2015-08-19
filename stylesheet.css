@@ -82,20 +82,16 @@
 .content {
     padding-right: 5em;
     padding-left: 5em;
-}
-
-.content {
-            height: 25em;
-            border-bottom: .25em solid #82BBA0;
+    height: 25em;
+    border-bottom: .25em solid #82BBA0;
 }
 
 .button {
             width: 8em;
             height: 2em;
+            display: inline-block;
             background-color: #82BBA0;
             text-align: center;
-            margin-left: auto;
-            margin-right: auto;
             margin-top: 2em;
             border-radius: .5em;
 }
@@ -109,3 +105,4 @@
                 font-weight: bold;
                 padding-top: .5em;
 }
+

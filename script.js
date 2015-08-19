@@ -1,9 +1,9 @@
 $(document).ready(function() {
     $button = $('.button')
     $button.mouseenter(function() {
-        $button.fadeTo('fast', .75);
+        $(this).fadeTo('fast', .75);
         });
     $button.mouseleave(function() {
-        $button.fadeTo('fast', 1);
+        $(this).fadeTo('fast', 1);
         });
 });
