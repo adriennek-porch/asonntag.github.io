@@ -42,7 +42,6 @@
             /*table cells won't overlap*/
             table-layout: fixed;
             text-overflow: ellipsis;
-
 }
 
 #left {
@@ -86,23 +85,19 @@
     border-bottom: .25em solid #82BBA0;
 }
 
-.button {
+a {
             width: 8em;
-            height: 2em;
+            padding: .5em;
             display: inline-block;
             background-color: #82BBA0;
             text-align: center;
             margin-top: 2em;
             border-radius: .5em;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
 }
 
-.button a {
-                display: block;
-                height: 100%;
-                width: 100%;
-                text-decoration: none;
-                color: black;
-                font-weight: bold;
-                padding-top: .5em;
+.footer {
+            text-align: center;
 }
-
