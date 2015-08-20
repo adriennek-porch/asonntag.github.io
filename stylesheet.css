@@ -4,6 +4,11 @@
     margin: 0;
     }
 
+body {
+        background: url("ibm-women.jpg");
+        background-repeat: repeat-y;
+        background-size: cover;
+}
  
 .header {
         z-index: 1;
@@ -58,14 +63,8 @@
         
 }
 
-.big_container {
-        background: url("ibm-women.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-}
 
 .container {
-            height: 50em;
             width: 55em;
             float: middle;
             /*center horizontally*/
@@ -74,24 +73,27 @@
             padding-top: 15em;
             position: relative;
             overflow: hidden;
-            background-color: rgba(255, 255, 255, 0.5); 
+            text-align: center;
+            
 }
 
-.content h2 {
+.head h2 {
     text-align: center;
-    padding: 2em;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .content p {
     padding-bottom: 2em;
+
 }
 
 .content {
     padding-right: 5em;
     padding-left: 5em;
-    height: 25em;
-    border-bottom: .25em solid #82BBA0;
-}
+    background-color: rgba(255, 255, 255, 0.3);
+    display: none;
+        }
 
 a {
             width: 8em;
@@ -106,6 +108,7 @@ a {
             font-weight: bold;
 }
 
-.footer {
-            text-align: center;
-}
+.linkies {
+            background-color: transparent;
+            border-top: .25em solid #82BBA0;
+        }
