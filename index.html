@@ -2,47 +2,42 @@
 <html>
 <head>
     <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
     <script type='text/javascript' src='script.js'></script>
-    <title>
-        Audrey's Profile for Github.io
-    </title>
+    <title>Audrey's Profile for Github.io</title>
 </head>
 <body>
-    <div class="header">
-        <table class="title">
-            <tr>
-            <td>
-            <h2 id="left"> Audrey M Sonntag </h2>
-            </td>
-            <td>
-            <img src = "prof.jpg"/>    
-            </td>
-            <td>
-            <h2 id="right"> Analyst </h2>
-            </td>
-            </tr>
-        </table>
-    </div>
-        <div class="container">
-            <div class= "head">
-                <h2> About Me </h2>
-            </div>
-            <div class= "content">
-                <p>
-This is one of your few sources for information about Audrey because she stays away from social media in an effort to conserve time and maintain privacy. But, don't get her wrong, she totally loves other humans.
-                </p>
-                <p>
-Audrey is a python enthusiast and analytics lover. On weekdays you will find her at George Mason University studying math, or learning new tech skills. She also tries to stay involved with local tech projects.
-                </p>
-                <p>
-On weekends she might be sailing, playing board games, chilling with a miniature dachshund named Sammy, cooking elaborate meals, getting out of the city, and generally avoiding computer screens.
-                </p>
-            </div>
-            <div class="linkies">
-                <a href="https://www.goodreads.com/user/show/4423919-audrey">Goodreads</a>
-                <a href="https://www.dropbox.com/s/8dlds0es6jnf1sx/20150808_audrey_resume.pdf?dl=1" download>Resume</a>
+    <div class="container-fluid">
+        <div class="row title text-center">
+            <div class="container">
+                <div class="col-md-4">
+                    <h2>Audrey M Sonntag</h2>
+                </div>
+                <div class="col-md-4">
+                    <img src="prof.jpg" class="avatar"/>
+                </div>
+                <div class="col-md-4">
+                    <h2>Analyst</h2>
+                </div>
             </div>
         </div>
+        <div class="container">
+            <div class="row about">
+                <div class="row about-title text-center">
+                    <h2> About Me </h2>
+                </div>
+                <div class="row about-body col-md-offset-1 col-md-10">
+                    <p>This is one of your few sources for information about Audrey because she stays away from social media in an effort to conserve time and maintain privacy. But, don't get her wrong, she totally loves other humans.</p>
+                    <p>Audrey is a python enthusiast and analytics lover. On weekdays you will find her at George Mason University studying math, or learning new tech skills. She also tries to stay involved with local tech projects.</p>
+                    <p>On weekends she might be sailing, playing board games, chilling with a miniature dachshund named Sammy, cooking elaborate meals, getting out of the city, and generally avoiding computer screens.</p>
+                </div>
+            </div>
+            <div class="row social-links center-block text-center">
+                <a href="https://www.goodreads.com/user/show/4423919-audrey" class="btn btn-default" role="button">Goodreads</a>
+                <a href="https://www.dropbox.com/s/8dlds0es6jnf1sx/20150808_audrey_resume.pdf?dl=1" class="btn btn-default" role="button" download>Resume</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

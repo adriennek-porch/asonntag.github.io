@@ -1,114 +1,36 @@
-* {
-    font-family: Arial;
-    padding: 0;
-    margin: 0;
-    }
-
 body {
-        background: url("ibm-women.jpg");
-        background-repeat: repeat-y;
-        background-size: cover;
+    background: url("ibm-women.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
 }
- 
-.header {
-        z-index: 1;
-        height: 15em;
-        width: 100%;
-        background-color: #82BBA0;
-        margin: 0 auto;
-        /*header won't move*/
-        position: fixed;
-        }
 
-.header img {
-            /*positioned relative to its nearest ancestor (header div)*/    
-            position: absolute;
-            border: .3em solid white;
-            /*make image a circle/oval*/
-            border-radius: 50%;
-            width: 12em;
-            height: 10em;
-            /*top and left refer to the edges of the image*/
-            top: 50%;
-            left: 50%;
-            /*half of the width and height to center */
-            margin-top: -5em;
-            margin-left: -6em;
-            display: inline-block;
-            }
+.avatar {
+    border: .3em solid white;
+    /*make image a circle/oval*/
+    border-radius: 50%;
+    max-width: 200px;
+}
 
 .title {
-            position: absolute;
-            display: table;
-            vertical-align: middle;
-            background-color: white;
-            width: 100%;
-            top: 50%;
-            margin-top: -1.5em;
-            /*table cells won't overlap*/
-            table-layout: fixed;
-            text-overflow: ellipsis;
+    background-color: #82BBA0;
 }
 
-#left {
-        display: inline;
-        float: left;
-        padding-left: .5em;
-}
-
-#right {
-        display: inline;
-        float: right;
-        padding-right: .5em;
-        
-}
-
-
-.container {
-            width: 55em;
-            float: middle;
-            /*center horizontally*/
-            margin-left: auto;
-            margin-right: auto;
-            padding-top: 15em;
-            position: relative;
-            overflow: hidden;
-            text-align: center;
-            
-}
-
-.head h2 {
-    text-align: center;
-    padding: 1em;
+.about {
     background-color: rgba(255, 255, 255, 0.3);
+    border-bottom: 5px solid #82BBA0;
+    color: black;
+    margin-bottom: 20px;
 }
 
-.content p {
-    padding-bottom: 2em;
-
-}
-
-.content {
-    padding-right: 5em;
-    padding-left: 5em;
-    background-color: rgba(255, 255, 255, 0.3);
+.about .about-body {
     display: none;
-        }
-
-a {
-            width: 8em;
-            padding: .5em;
-            display: inline-block;
-            background-color: #82BBA0;
-            text-align: center;
-            margin-top: 2em;
-            border-radius: .5em;
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
 }
 
-.linkies {
-            background-color: transparent;
-            border-top: .25em solid #82BBA0;
-        }
+.social-links {
+    display: inline-block;
+}
+
+.btn-default {
+    background-color: #82BBA0 !important;
+    border-color: #69ad8d !important;
+}
